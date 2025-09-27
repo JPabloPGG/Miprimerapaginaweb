@@ -4,49 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pag Web Minimalista</title>
-    <style>
-        body{
-            font-family: 'Times New Roman', Times, serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header{
-            background: #4CAF50;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-        nav a{
-            color: rgb(203, 17, 17);
-            margin: 0 10px 15px 20px;
-            text-decoration: none;
-        }
-        nav a:hover{
-            color: #111dcc;
-        }
-        main{
-            padding: 10px;
-        }
-        footer{
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <!--Cabecera-->
     <header>
-        <h1>Mi primera pagina</h1>
-        <nav>
+        <div class="menu-nav">
+            <h1>Mi primera pagina</h1>
+            <nav>
             <a href="#Inicio">Inicio</a>
             <a href="#Sobre mi">Sobre mi</a>
             <a href="#Contacto">Contacto</a>
-        </nav>
+            <a href="#Galeria">Galeria</a>
+            </nav>
+        </div>
     </header>
-    <!--Sección de inicio-->
+    <!--Sección de inicio-->    
     <main id="Inicio">
         <section>
             <h2>Bienvenidos</h2>
@@ -73,6 +46,38 @@
         <section id="Contacto">
             <h2>Contacto</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quia magnam placeat et quis, accusantium dolores veritatis quae at consequatur vel fugit porro quaerat quisquam sunt, eligendi culpa iste officiis.</p>
+        </section>
+        <!--Seccion de Galeria-->
+        <section id="Galeria">
+            <h2>Galeria</h2>
+            <div class="container">
+                <div class="card-grid">
+                    <div class="card">
+                        <img class="card-img" src="img/desc.jpeg" alt="Imagen 1">
+                        <div class="card-content">
+                            <h3>Imagen 1</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="img/desc2.jpeg" alt="Imagen 2">
+                        <div class="card-content">
+                            <h3>Imagen 2</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="img/desc3.jpeg" alt="Imagen 3">
+                        <div class="card-content">
+                            <h3>Imagen 3</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="img/desc4.jpeg" alt="Imagen 4">
+                        <div class="card-content">
+                            <h3>Imagen 4</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <!--Componente del Pie de pag Web-->
