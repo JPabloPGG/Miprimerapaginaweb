@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+    <h1>Formulario de datos</h1>
+    <form onsubmit="procesarFormulario(event)">
+        <label for="Nombre">Nombre</label>
+        <input type="text" name= "" id="Nombre">
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input type="text" name="" id="Apellido">
+        <br>
+        <label for="Edad">Edad</label>
+        <input type="number" name="" id="Edad">
+        <br>
+        <label for="Fecha Nacimiento">Fecha Nacimiento</label>
+        <input type="date" name="" id="Fecha Nacimiento">
+        <br>
+        <label for="Correo">Correo</label>
+        <input type="email" name="" id="Correo">
+        <br>
+        <label for="Password">Password</label>
+        <input type="password">
+        <br>
+        <label for="Universidad">Universidad</label>
+        <select name="" id="Universidad">
+            <option value="">--Seleciona Universidad--</option>
+            <option value="">UPB</option>
+            <option value="">U ECCI</option>
+            <option value="">U Nacional</option>
+            <option value="">U Distrital</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+    <p id="Resultados">Resultados o datos extraidos:</p>
+</body>
+    <script>
+        function procesarFormulario(event){
+            event.preventDefault();
+
+            //Asignamos los valores del formulario = (value) los guardaremos en constantes
+            const Nombre = document.getElementById("Nombre");
+            const Apellido = document.getElementById("Apellido");
+            const Edad = document.getElementById("Edad");
+            const Fecha = document.getElementById("Fecha");
+            const Correo = document.getElementById("Correo");
+            const Password = document.getElementById("Password");
+            const Universidad = document.getElementById("Universidad");
+        }
+    </script>
+</html>
