@@ -1,24 +1,123 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
     background: #8b474777;
     padding: 50px;
     width: auto;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid #ff000073;
+    width: 500px;
+    box-shadow: 10px 10px 5px #ff0000;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
 }
 h1{
     border-radius: 10px;
     text-align: center;
+    background: #ff00007a;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    display: block;
+    width: 400px;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 5px #000000;
 }
 label{
-    background: #ff0000;
+    background: #ff00007d;
     padding:5px;
     border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+    width: 300px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 5px #000000;
 }
 input{
     text-align: center;
     padding: 5px;
     border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 5px 5px 5px #000000;
+    border: 2px solid #ff0000;
+    outline: none;
+}
+select{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 315px;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 5px 5px 5px #000000;
+    border: 2px solid #ff0000;
+    outline: none;
+}
+button{
+    background: #ff00007a;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 5px #000000;
+    border: 2px solid #ff0000;
+    outline: none;
+    cursor: pointer;
 }
 p{
     text-align: center;
+    background: #ff000081;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 400px;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 5px #000000;
+    border: 2px solid #ff0000;
+    outline: none;
+    min-height: 40px;
+    line-height: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    max-height: 200px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ff0000 #ffffff;
 }
